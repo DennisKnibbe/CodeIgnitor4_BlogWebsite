@@ -1,0 +1,1131 @@
+CRITICAL - 2021-12-08 10:31:04 --> Undefined variable $news
+#0 C:\xampp\htdocs\blogProject\app\Views\pages\blogs.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('pages/blogs', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\pages.php(27): view('pages/blogs')
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\pages->showme('blogs')
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 10:33:24 --> Undefined variable $news
+#0 C:\xampp\htdocs\blogProject\app\Views\pages\blogs.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('pages/blogs', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\pages.php(27): view('pages/blogs')
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\pages->showme('blogs')
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 10:43:29 --> Class "App\Controllers\Controllers" not found
+#0 C:\xampp\htdocs\blogProject\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\blogProject\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-08 10:45:49 --> Class "App\Controllers\Controllers" not found
+#0 C:\xampp\htdocs\blogProject\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\blogProject\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-08 10:46:12 --> Class "App\Controllers\Controllers" not found
+#0 C:\xampp\htdocs\blogProject\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\blogProject\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-08 10:46:14 --> Class "App\Controllers\Controllers" not found
+#0 C:\xampp\htdocs\blogProject\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\blogProject\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-08 10:47:59 --> Class "App\Controllers\Controllers" not found
+#0 C:\xampp\htdocs\blogProject\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\blogProject\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-08 10:48:01 --> Class "App\Controllers\Controllers" not found
+#0 C:\xampp\htdocs\blogProject\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\blogProject\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-08 10:48:26 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-08 10:48:35 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-08 10:49:03 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-08 10:49:19 --> Class "App\Controllers\Controllers" not found
+#0 C:\xampp\htdocs\blogProject\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\blogProject\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-08 10:49:30 --> Class "App\Controllers\Controllers" not found
+#0 C:\xampp\htdocs\blogProject\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\blogProject\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-08 10:51:19 --> Class "App\Controllers\Controllers" not found
+#0 C:\xampp\htdocs\blogProject\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\blogProject\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-08 11:06:29 --> Class "App\Controllers\blog_Model" not found
+#0 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\blog_Controller->index()
+#1 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\blog_Controller))
+#2 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-08 11:06:34 --> Class "App\Controllers\blog_Model" not found
+#0 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\blog_Controller->index()
+#1 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\blog_Controller))
+#2 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-08 11:06:44 --> Undefined variable $blog
+#0 C:\xampp\htdocs\blogProject\app\Views\blog_View.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog_View', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\blog_Controller.php(12): view('blog_View', Array)
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\blog_Controller->index()
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\blog_Controller))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 11:07:13 --> Undefined variable $blog
+#0 C:\xampp\htdocs\blogProject\app\Views\blog_View.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog_View', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\blog_Controller.php(12): view('blog_View', Array)
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\blog_Controller->index()
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\blog_Controller))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 11:07:14 --> Undefined variable $blog
+#0 C:\xampp\htdocs\blogProject\app\Views\blog_View.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog_View', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\blog_Controller.php(12): view('blog_View', Array)
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\blog_Controller->index()
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\blog_Controller))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 11:11:51 --> Undefined variable $blog
+#0 C:\xampp\htdocs\blogProject\app\Views\blog_View.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog_View', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\blog_Controller.php(12): view('blog_View', Array)
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\blog_Controller->index()
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\blog_Controller))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 11:12:17 --> Undefined variable $blog
+#0 C:\xampp\htdocs\blogProject\app\Views\blog_View.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog_View', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\blog_Controller.php(12): view('blog_View', Array)
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\blog_Controller->index()
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\blog_Controller))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 11:13:14 --> Undefined variable $data
+#0 C:\xampp\htdocs\blogProject\app\Views\blog_View.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog_View', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\blog_Controller.php(12): view('blog_View', Array)
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\blog_Controller->index()
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\blog_Controller))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 11:13:22 --> Undefined variable $data
+#0 C:\xampp\htdocs\blogProject\app\Views\blog_View.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog_View', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\blog_Controller.php(12): view('blog_View', Array)
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\blog_Controller->index()
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\blog_Controller))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 11:14:34 --> Undefined variable $data
+#0 C:\xampp\htdocs\blogProject\app\Views\blog_View.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog_View', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\blog_Controller.php(12): view('blog_View', Array)
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\blog_Controller->index()
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\blog_Controller))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 11:15:00 --> Undefined variable $data
+#0 C:\xampp\htdocs\blogProject\app\Views\blog_View.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog_View', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\blog_Controller.php(12): view('blog_View', Array)
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\blog_Controller->index()
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\blog_Controller))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 11:15:00 --> Undefined variable $data
+#0 C:\xampp\htdocs\blogProject\app\Views\blog_View.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog_View', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\blog_Controller.php(12): view('blog_View', Array)
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\blog_Controller->index()
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\blog_Controller))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 11:15:01 --> Undefined variable $data
+#0 C:\xampp\htdocs\blogProject\app\Views\blog_View.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog_View', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\blog_Controller.php(12): view('blog_View', Array)
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\blog_Controller->index()
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\blog_Controller))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 11:17:18 --> Undefined property: App\Controllers\blog_Controller::$load
+#0 C:\xampp\htdocs\blogProject\app\Controllers\blog_Controller.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\blog_Controller->index()
+#2 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\blog_Controller))
+#3 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-08 11:19:26 --> Undefined variable $data
+#0 C:\xampp\htdocs\blogProject\app\Views\blog_View.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog_View', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\blog_Controller.php(12): view('blog_View', Array)
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\blog_Controller->index()
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\blog_Controller))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 11:20:18 --> Undefined variable $data
+#0 C:\xampp\htdocs\blogProject\app\Views\blog_View.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog_View', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\blog_Controller.php(12): view('blog_View', Array)
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\blog_Controller->index()
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\blog_Controller))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 11:20:56 --> Undefined variable $data
+#0 C:\xampp\htdocs\blogProject\app\Views\blog_View.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog_View', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\blog_Controller.php(12): view('blog_View', Array)
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\blog_Controller->index()
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\blog_Controller))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 11:21:20 --> Undefined variable $data
+#0 C:\xampp\htdocs\blogProject\app\Views\blog_View.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog_View', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\blog_Controller.php(12): view('blog_View', Array)
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\blog_Controller->index()
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\blog_Controller))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 11:22:56 --> Undefined variable $data
+#0 C:\xampp\htdocs\blogProject\app\Views\blog_View.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog_View', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\blog_Controller.php(12): view('blog_View', Array)
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\blog_Controller->index()
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\blog_Controller))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 11:25:13 --> Cannot redeclare App\Controllers\blog_Controller::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-08 11:25:42 --> Undefined variable $title
+#0 C:\xampp\htdocs\blogProject\app\Views\blog_View.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog_View', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\blog_Controller.php(14): view('blog_View', Array)
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\blog_Controller->index()
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\blog_Controller))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 11:27:06 --> Undefined variable $title
+#0 C:\xampp\htdocs\blogProject\app\Views\blog_View.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog_View', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\blog_Controller.php(14): view('blog_View', Array)
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\blog_Controller->index()
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\blog_Controller))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 11:27:07 --> Undefined variable $title
+#0 C:\xampp\htdocs\blogProject\app\Views\blog_View.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog_View', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\blog_Controller.php(14): view('blog_View', Array)
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\blog_Controller->index()
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\blog_Controller))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 11:27:07 --> Undefined variable $title
+#0 C:\xampp\htdocs\blogProject\app\Views\blog_View.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog_View', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\blog_Controller.php(14): view('blog_View', Array)
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\blog_Controller->index()
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\blog_Controller))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 11:27:07 --> Undefined variable $title
+#0 C:\xampp\htdocs\blogProject\app\Views\blog_View.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog_View', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\blog_Controller.php(14): view('blog_View', Array)
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\blog_Controller->index()
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\blog_Controller))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 11:27:49 --> Undefined variable $title
+#0 C:\xampp\htdocs\blogProject\app\Views\blog_View.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog_View', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\blog_Controller.php(14): view('blog_View', Array)
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\blog_Controller->index()
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\blog_Controller))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 11:27:49 --> Undefined variable $title
+#0 C:\xampp\htdocs\blogProject\app\Views\blog_View.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog_View', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\blog_Controller.php(14): view('blog_View', Array)
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\blog_Controller->index()
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\blog_Controller))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 11:27:50 --> Undefined variable $title
+#0 C:\xampp\htdocs\blogProject\app\Views\blog_View.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog_View', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\blog_Controller.php(14): view('blog_View', Array)
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\blog_Controller->index()
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\blog_Controller))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 11:27:50 --> Undefined variable $title
+#0 C:\xampp\htdocs\blogProject\app\Views\blog_View.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog_View', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\blog_Controller.php(14): view('blog_View', Array)
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\blog_Controller->index()
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\blog_Controller))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 11:27:51 --> Undefined variable $title
+#0 C:\xampp\htdocs\blogProject\app\Views\blog_View.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog_View', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\blog_Controller.php(14): view('blog_View', Array)
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\blog_Controller->index()
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\blog_Controller))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 11:28:05 --> Undefined variable $title
+#0 C:\xampp\htdocs\blogProject\app\Views\blog_View.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog_View', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\blog_Controller.php(14): view('blog_View', Array)
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\blog_Controller->index()
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\blog_Controller))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 11:28:06 --> Undefined variable $title
+#0 C:\xampp\htdocs\blogProject\app\Views\blog_View.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog_View', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\blog_Controller.php(14): view('blog_View', Array)
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\blog_Controller->index()
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\blog_Controller))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 11:28:44 --> Undefined variable $title
+#0 C:\xampp\htdocs\blogProject\app\Views\blog_View.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog_View', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\blog_Controller.php(14): view('blog_View', Array)
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\blog_Controller->index()
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\blog_Controller))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 11:28:45 --> Undefined variable $title
+#0 C:\xampp\htdocs\blogProject\app\Views\blog_View.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog_View', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\blog_Controller.php(14): view('blog_View', Array)
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\blog_Controller->index()
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\blog_Controller))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 11:28:48 --> Undefined variable $title
+#0 C:\xampp\htdocs\blogProject\app\Views\blog_View.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog_View', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\blog_Controller.php(14): view('blog_View', Array)
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\blog_Controller->index()
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\blog_Controller))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 11:29:02 --> Undefined variable $title
+#0 C:\xampp\htdocs\blogProject\app\Views\blog_View.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog_View', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\blog_Controller.php(14): view('blog_View', Array)
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\blog_Controller->index()
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\blog_Controller))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 11:30:48 --> Too few arguments to function App\Models\blog_model::getBlog(), 0 passed in C:\xampp\htdocs\blogProject\app\Controllers\blog_Controller.php on line 11 and exactly 1 expected
+#0 C:\xampp\htdocs\blogProject\app\Controllers\blog_Controller.php(11): App\Models\blog_model->getBlog()
+#1 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\blog_Controller->index()
+#2 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\blog_Controller))
+#3 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-08 11:31:01 --> Undefined variable $id
+#0 C:\xampp\htdocs\blogProject\app\Controllers\blog_Controller.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\blog_Controller->index()
+#2 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\blog_Controller))
+#3 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-08 11:32:30 --> Undefined variable $id
+#0 C:\xampp\htdocs\blogProject\app\Controllers\blog_Controller.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\blog_Controller->index()
+#2 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\blog_Controller))
+#3 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-08 11:34:13 --> Undefined variable $id
+#0 C:\xampp\htdocs\blogProject\app\Controllers\blog_Controller.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\blog_Controller->index()
+#2 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\blog_Controller))
+#3 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-08 11:34:36 --> Too few arguments to function App\Controllers\blog_Controller::index(), 0 passed in C:\xampp\htdocs\blogProject\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\blog_Controller->index()
+#1 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\blog_Controller))
+#2 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-08 11:43:05 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 C:\xampp\htdocs\blogProject\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\blogProject\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-08 11:56:23 --> syntax error, unexpected token "echo", expecting "," or ";"
+#0 C:\xampp\htdocs\blogProject\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('pages/showme/ab...')
+#1 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('pages/showme/ab...')
+#2 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-08 11:56:31 --> Invalid file: template/header.php
+#0 C:\xampp\htdocs\blogProject\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/header...')
+#1 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('template/header', Array, true)
+#2 C:\xampp\htdocs\blogProject\app\Controllers\Pages.php(16): view('template/header')
+#3 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Pages->showme('about')
+#4 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-08 12:08:26 --> Undefined variable $routs
+#0 C:\xampp\htdocs\blogProject\app\Config\Routes.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(705): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-08 12:16:52 --> Call to undefined method App\Models\blogModel::getPosts
+#0 C:\xampp\htdocs\blogProject\app\Controllers\Pages.php(13): CodeIgniter\Model->__call('getPosts', Array)
+#1 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Pages->index()
+#2 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-08 12:17:22 --> Too few arguments to function App\Models\blogModel::getPosts(), 0 passed in C:\xampp\htdocs\blogProject\app\Controllers\Pages.php on line 13 and exactly 1 expected
+#0 C:\xampp\htdocs\blogProject\app\Controllers\Pages.php(13): App\Models\blogModel->getPosts()
+#1 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Pages->index()
+#2 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-08 12:21:31 --> syntax error, unexpected token "endif"
+#0 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('pages/home', Array, true)
+#2 C:\xampp\htdocs\blogProject\app\Controllers\Pages.php(16): view('pages/home')
+#3 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Pages->index()
+#4 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-08 12:21:47 --> syntax error, unexpected token "endif"
+#0 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('pages/home', Array, true)
+#2 C:\xampp\htdocs\blogProject\app\Controllers\Pages.php(16): view('pages/home')
+#3 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Pages->index()
+#4 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-08 12:21:47 --> syntax error, unexpected token "endif"
+#0 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('pages/home', Array, true)
+#2 C:\xampp\htdocs\blogProject\app\Controllers\Pages.php(16): view('pages/home')
+#3 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Pages->index()
+#4 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-08 12:22:08 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('pages/home', Array, true)
+#2 C:\xampp\htdocs\blogProject\app\Controllers\Pages.php(16): view('pages/home')
+#3 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Pages->index()
+#4 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-08 12:47:02 --> Class "App\Controllers\Controller" not found
+#0 C:\xampp\htdocs\blogProject\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\blogProject\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-08 12:57:20 --> Invalid file: create.php
+#0 C:\xampp\htdocs\blogProject\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('create.php')
+#1 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('create', Array, true)
+#2 C:\xampp\htdocs\blogProject\app\Controllers\Blog.php(28): view('create')
+#3 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Blog->create()
+#4 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-08 12:57:28 --> Invalid file: /create.php
+#0 C:\xampp\htdocs\blogProject\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/create.php')
+#1 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('/create', Array, true)
+#2 C:\xampp\htdocs\blogProject\app\Controllers\Blog.php(28): view('/create')
+#3 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Blog->create()
+#4 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-08 14:18:59 --> Invalid file: blog/createBlog.php
+#0 C:\xampp\htdocs\blogProject\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('blog/createBlog...')
+#1 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog/createBlog', Array, true)
+#2 C:\xampp\htdocs\blogProject\app\Controllers\Blog.php(29): view('blog/createBlog')
+#3 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Blog->create()
+#4 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-08 14:45:36 --> Invalid file: blog/createBlog.php
+#0 C:\xampp\htdocs\blogProject\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('blog/createBlog...')
+#1 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog/createBlog', Array, true)
+#2 C:\xampp\htdocs\blogProject\app\Controllers\Blog.php(29): view('blog/createBlog')
+#3 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\blog->create()
+#4 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\blog))
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-12-08 14:46:31 --> Column 'body' cannot be null
+CRITICAL - 2021-12-08 14:46:31 --> Column 'body' cannot be null
+#0 C:\xampp\htdocs\blogProject\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `po...', 0)
+#1 C:\xampp\htdocs\blogProject\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 C:\xampp\htdocs\blogProject\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 C:\xampp\htdocs\blogProject\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 C:\xampp\htdocs\blogProject\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\blogProject\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\blogProject\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\blogProject\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\blogProject\app\Controllers\Blog.php(36): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Blog->create()
+#10 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#11 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2021-12-08 14:46:54 --> Column 'body' cannot be null
+CRITICAL - 2021-12-08 14:46:54 --> Column 'body' cannot be null
+#0 C:\xampp\htdocs\blogProject\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `po...', 0)
+#1 C:\xampp\htdocs\blogProject\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 C:\xampp\htdocs\blogProject\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 C:\xampp\htdocs\blogProject\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 C:\xampp\htdocs\blogProject\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\blogProject\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\blogProject\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\blogProject\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\blogProject\app\Controllers\Blog.php(36): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Blog->create()
+#10 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#11 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2021-12-08 14:47:27 --> Column 'body' cannot be null
+CRITICAL - 2021-12-08 14:47:27 --> Column 'body' cannot be null
+#0 C:\xampp\htdocs\blogProject\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `po...', 0)
+#1 C:\xampp\htdocs\blogProject\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 C:\xampp\htdocs\blogProject\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 C:\xampp\htdocs\blogProject\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 C:\xampp\htdocs\blogProject\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\blogProject\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\blogProject\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\blogProject\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\blogProject\app\Controllers\Blog.php(36): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Blog->create()
+#10 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#11 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2021-12-08 14:47:29 --> Column 'body' cannot be null
+CRITICAL - 2021-12-08 14:47:29 --> Column 'body' cannot be null
+#0 C:\xampp\htdocs\blogProject\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `po...', 0)
+#1 C:\xampp\htdocs\blogProject\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 C:\xampp\htdocs\blogProject\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 C:\xampp\htdocs\blogProject\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 C:\xampp\htdocs\blogProject\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\blogProject\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\blogProject\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\blogProject\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\blogProject\app\Controllers\Blog.php(36): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Blog->create()
+#10 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#11 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2021-12-08 14:47:48 --> Column 'body' cannot be null
+CRITICAL - 2021-12-08 14:47:48 --> Column 'body' cannot be null
+#0 C:\xampp\htdocs\blogProject\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `po...', 0)
+#1 C:\xampp\htdocs\blogProject\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 C:\xampp\htdocs\blogProject\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 C:\xampp\htdocs\blogProject\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 C:\xampp\htdocs\blogProject\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\blogProject\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\blogProject\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\blogProject\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\blogProject\app\Controllers\Blog.php(36): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Blog->create()
+#10 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#11 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-12-08 15:00:41 --> syntax error, unexpected token "endif", expecting end of file
+#0 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('pages/home', Array, true)
+#2 C:\xampp\htdocs\blogProject\app\Controllers\Pages.php(16): view('pages/home')
+#3 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Pages->index()
+#4 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-08 15:24:13 --> syntax error, unexpected identifier "date", expecting "," or ";"
+#0 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog/post', Array, true)
+#2 C:\xampp\htdocs\blogProject\app\Controllers\Blog.php(18): view('blog/post')
+#3 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Blog->post('final')
+#4 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-08 15:24:47 --> syntax error, unexpected identifier "date", expecting "," or ";"
+#0 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog/post', Array, true)
+#2 C:\xampp\htdocs\blogProject\app\Controllers\Blog.php(18): view('blog/post')
+#3 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Blog->post('final')
+#4 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-08 15:24:49 --> syntax error, unexpected identifier "date", expecting "," or ";"
+#0 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog/post', Array, true)
+#2 C:\xampp\htdocs\blogProject\app\Controllers\Blog.php(18): view('blog/post')
+#3 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Blog->post('final')
+#4 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-08 17:45:23 --> Undefined variable $data
+#0 C:\xampp\htdocs\blogProject\app\Controllers\Pages.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Pages->index()
+#2 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-08 17:48:52 --> usort(): Argument #2 ($callback) must be a valid callback, function "date_compare" not found or invalid function name
+#0 C:\xampp\htdocs\blogProject\app\Controllers\Pages.php(22): usort(Array, 'date_compare')
+#1 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Pages->index()
+#2 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-08 17:48:54 --> usort(): Argument #2 ($callback) must be a valid callback, function "date_compare" not found or invalid function name
+#0 C:\xampp\htdocs\blogProject\app\Controllers\Pages.php(22): usort(Array, 'date_compare')
+#1 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Pages->index()
+#2 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-08 17:49:03 --> usort(): Argument #2 ($callback) must be a valid callback, function "date_compare" not found or invalid function name
+#0 C:\xampp\htdocs\blogProject\app\Controllers\Pages.php(17): usort(Array, 'date_compare')
+#1 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Pages->index()
+#2 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-08 17:49:04 --> usort(): Argument #2 ($callback) must be a valid callback, function "date_compare" not found or invalid function name
+#0 C:\xampp\htdocs\blogProject\app\Controllers\Pages.php(17): usort(Array, 'date_compare')
+#1 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Pages->index()
+#2 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-08 17:49:33 --> Undefined constant "App\Controllers\date_compare"
+#0 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Pages->index()
+#1 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-08 17:49:39 --> usort(): Argument #2 ($callback) must be a valid callback, function "date_compare" not found or invalid function name
+#0 C:\xampp\htdocs\blogProject\app\Controllers\Pages.php(17): usort(Array, 'date_compare')
+#1 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Pages->index()
+#2 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-08 18:00:55 --> Unclosed '{' on line 7
+#0 C:\xampp\htdocs\blogProject\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\blogProject\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Blog...')
+#2 C:\xampp\htdocs\blogProject\app\Controllers\Pages.php(12): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Blog...')
+#3 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Pages->index()
+#4 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-08 18:02:43 --> Too few arguments to function App\Models\blogModel::getPosts(), 0 passed in C:\xampp\htdocs\blogProject\app\Controllers\Pages.php on line 13 and exactly 1 expected
+#0 C:\xampp\htdocs\blogProject\app\Controllers\Pages.php(13): App\Models\blogModel->getPosts()
+#1 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Pages->index()
+#2 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-08 18:10:59 --> Unknown column 'status' in 'where clause'
+CRITICAL - 2021-12-08 18:10:59 --> Unknown column 'status' in 'where clause'
+#0 C:\xampp\htdocs\blogProject\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\blogProject\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\blogProject\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\blogProject\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\blogProject\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\blogProject\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\blogProject\app\Models\blogModel.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\blogProject\app\Controllers\Pages.php(13): App\Models\blogModel->getPosts()
+#8 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Pages->index()
+#9 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#10 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-12-08 18:15:38 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::order_by()
+#0 C:\xampp\htdocs\blogProject\app\Controllers\Pages.php(13): App\Models\blogModel->getPosts()
+#1 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Pages->index()
+#2 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-08 21:56:10 --> Undefined variable $news
+#0 C:\xampp\htdocs\blogProject\app\Views\pages\Blogs.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('pages/Blogs', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\Pages.php(29): view('pages/Blogs')
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Pages->showme('Blogs')
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 21:57:29 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\blogProject\app\Views\blog\post.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog/post', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\Blog.php(17): view('blog/post')
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Blog->post('post')
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 22:01:58 --> Undefined variable $news
+#0 C:\xampp\htdocs\blogProject\app\Views\blog\post.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog/post', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\Blog.php(17): view('blog/post')
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Blog->post('post')
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 22:02:11 --> Undefined variable $news
+#0 C:\xampp\htdocs\blogProject\app\Views\blog\post.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog/post', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\Blog.php(17): view('blog/post')
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Blog->post('post')
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 22:02:54 --> Undefined variable $news
+#0 C:\xampp\htdocs\blogProject\app\Views\pages\Blogs.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('pages/blogs', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\Pages.php(29): view('pages/blogs')
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Pages->showme('blogs')
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 22:04:40 --> Undefined variable $news
+#0 C:\xampp\htdocs\blogProject\app\Views\pages\Blogs.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('pages/Blogs', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\Pages.php(29): view('pages/Blogs')
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Pages->showme('Blogs')
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 22:04:59 --> Undefined variable $news
+#0 C:\xampp\htdocs\blogProject\app\Views\pages\Blogs.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('pages/Blogs', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\Pages.php(29): view('pages/Blogs')
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Pages->showme('Blogs')
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 22:05:20 --> Undefined variable $news
+#0 C:\xampp\htdocs\blogProject\app\Views\pages\home.php(208): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 208)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\Pages.php(18): view('pages/home')
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 22:06:19 --> Undefined variable $news
+#0 C:\xampp\htdocs\blogProject\app\Views\pages\Blogs.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('pages/Blogs', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\Pages.php(29): view('pages/Blogs')
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Pages->showme('Blogs')
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 22:06:44 --> Undefined variable $news
+#0 C:\xampp\htdocs\blogProject\app\Views\pages\Blogs.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('pages/Blogs', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\Pages.php(29): view('pages/Blogs')
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Pages->showme('Blogs')
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 22:07:20 --> Undefined variable $news
+#0 C:\xampp\htdocs\blogProject\app\Views\blog\post.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog/post', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\Blog.php(17): view('blog/post')
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Blog->post('post')
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 22:08:59 --> Undefined variable $news
+#0 C:\xampp\htdocs\blogProject\app\Views\pages\Blogs.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('pages/Blogs', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\Pages.php(29): view('pages/Blogs')
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Pages->showme('Blogs')
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 22:09:32 --> Undefined variable $news
+#0 C:\xampp\htdocs\blogProject\app\Views\blog\post.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog/post', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\Blog.php(18): view('blog/post')
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Blog->post('post')
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 22:10:49 --> Undefined variable $totalTime
+#0 C:\xampp\htdocs\blogProject\system\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\blogProject\system\Debug\Toolbar.php(497): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\Debug\Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp\htdocs\blogProject\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 C:\xampp\htdocs\blogProject\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-08 22:47:40 --> Undefined variable $news
+#0 C:\xampp\htdocs\blogProject\app\Views\pages\Blogs.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('pages/blogs', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\Pages.php(29): view('pages/blogs')
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Pages->showme('blogs')
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 22:49:38 --> Undefined variable $news
+#0 C:\xampp\htdocs\blogProject\app\Views\blog\post.php(208): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 208)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog/post', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\Blog.php(17): view('blog/post')
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Blog->post('showme', 'fff1')
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 22:49:57 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\blogProject\app\Views\blog\post.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 210)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog/post', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\Blog.php(17): view('blog/post')
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Blog->post('showme', 'fff1')
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 22:52:20 --> Too few arguments to function App\Models\blogModel::getPosts(), 0 passed in C:\xampp\htdocs\blogProject\app\Controllers\Pages.php on line 13 and exactly 1 expected
+#0 C:\xampp\htdocs\blogProject\app\Controllers\Pages.php(13): App\Models\blogModel->getPosts()
+#1 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Pages->index()
+#2 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-08 23:00:17 --> Undefined variable $post
+#0 C:\xampp\htdocs\blogProject\app\Views\blog\post.php(208): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 208)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog/post', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\Blog.php(17): view('blog/post')
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Blog->post('post')
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 23:00:27 --> Undefined variable $post
+#0 C:\xampp\htdocs\blogProject\app\Views\blog\post.php(208): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 208)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog/post', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\Blog.php(17): view('blog/post')
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Blog->post('post')
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 23:00:29 --> Undefined variable $post
+#0 C:\xampp\htdocs\blogProject\app\Views\blog\post.php(208): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 208)
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog/post', Array, true)
+#4 C:\xampp\htdocs\blogProject\app\Controllers\Blog.php(17): view('blog/post')
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Blog->post('post')
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-08 23:00:44 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\blogProject\app\Controllers\Blog.php on line 16
+#0 C:\xampp\htdocs\blogProject\app\Controllers\Blog.php(16): view('templates/heade...', NULL)
+#1 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Blog->post('post')
+#2 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-08 23:11:44 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\blogProject\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog/post', Array, true)
+#3 C:\xampp\htdocs\blogProject\app\Controllers\Blog.php(17): view('blog/post')
+#4 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Blog->post('fff1')
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-08 23:12:51 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\blogProject\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog/post', Array, true)
+#3 C:\xampp\htdocs\blogProject\app\Controllers\Blog.php(17): view('blog/post')
+#4 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Blog->post('fff1')
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-08 23:12:58 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\blogProject\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog/post', Array, true)
+#3 C:\xampp\htdocs\blogProject\app\Controllers\Blog.php(17): view('blog/post')
+#4 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Blog->post('fff1')
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-08 23:13:21 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\blogProject\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\blogProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\blogProject\system\Common.php(1097): CodeIgniter\View\View->render('blog/post', Array, true)
+#3 C:\xampp\htdocs\blogProject\app\Controllers\Blog.php(17): view('blog/post')
+#4 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(824): App\Controllers\Blog->post('fff1')
+#5 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#6 C:\xampp\htdocs\blogProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\blogProject\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}

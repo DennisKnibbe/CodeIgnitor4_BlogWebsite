@@ -1,0 +1,77 @@
+img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .cards_item {
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0 3px 7px -1px rgba(0, 0, 0, 0.6);
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  }
+  
+  .card_content {
+    padding: 1rem;
+  }
+  
+  .card_title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    text-align:center;
+  }
+  
+  .card_date{
+    line-height: 5px;
+    font-size: 15px;
+    text-align: right;
+  }
+  .card_text{
+    margin: 10px 0 0px 0;
+  }
+  
+  .info{
+    display:flex;
+    justify-content: space-between;
+  }
+  
+  button{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background: transparent;
+    width: 150px;
+    height: 30px;
+  }
+  
+  button:hover {
+    background-color: rgb(245,245,245);
+    color: #718daa;
+  }
+  
+  @media (min-width: 800px) {
+    img {
+      width: 50%;
+    }
+    .card_text{
+      margin: 10px 8% 0px 8%; 
+    }
+  }
+  
+  @media (min-width: 1029px) {
+    img {
+      width: 60%;
+    }
+  }
+  

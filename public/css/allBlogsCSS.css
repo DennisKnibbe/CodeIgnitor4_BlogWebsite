@@ -1,0 +1,95 @@
+.main{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    font-weight: bold;
+}
+
+img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.btn {
+  padding: 0.8rem;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: transparent;
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.btn:hover {
+  background-color: rgb(245,245,245);
+  color: #718daa;
+}
+
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 0 3px 7px -1px rgba(0, 0, 0, 0.6);
+  justify-content: center;
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card_content {
+  padding: 1rem;
+}
+
+.card_title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;    
+  font-weight: 400;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+.pagination{
+  display: flex;
+  justify-content: center;
+  font-size: 17px;
+}
+
+.active{
+  padding: 0 15px;
+}
